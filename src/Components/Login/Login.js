@@ -30,7 +30,7 @@ function Login() {
             id="fname"
             onChange={(e)=>setEmail(e.target.value)}
             name="email"
-            defaultValue="John"
+            defaultValue=""
           />
           <br />
           <label htmlFor="lname">Password</label>
@@ -41,7 +41,7 @@ function Login() {
             id="lname"
             onChange={(e)=>setPassword(e.target.value)}
             name="password"
-            defaultValue="Doe"
+            defaultValue=""
           />
           <br />
           <br />
